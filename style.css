@@ -1,4 +1,35 @@
 body {
     background-color: grey;
-	font-size: 20px;
+    margin: 0px;
+}
+.knapper {
+	width: 100%;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	text-align: center;
+    background-color: #2980b9;
+    font-size: 1.8em;
+}
+.knapper a {
+    padding-right: 2em;
+}
+.bildet:hover
+{
+	opacity: .5;
+}
+.nav a{
+    font-family: sans-serif;
+	color: white;
+	text-decoration: none;
+    font-family: 'Spectral SC', serif;
+}
+#awtop {
+    width: 8em;
+    float: left;
+    padding-left: 22%;
+    padding-top: 0.8em;
+}
+.knapp:hover
+{
+	opacity: .5;
 }
