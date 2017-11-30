@@ -80,7 +80,7 @@ header {
 }
 
 .mork {
-    background-color: darkblue;
+    background-color: #3498db;
     background-image: url(bilder/BGTileDark_2.png);
     color: #95feff;
     z-index: 1;
@@ -119,3 +119,4 @@ a:hover {
 .up:hover {
     opacity: .5;
 }
+
