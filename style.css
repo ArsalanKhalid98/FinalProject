@@ -72,7 +72,11 @@ header {
 }
 
 .lys {
+<<<<<<< HEAD
     background-color: #34495e;
+=======
+    background-color: #69C0F0;
+>>>>>>> 500012627aea9abb11d74e1d3a41f36b0f959445
     background-image: url(bilder/BGTileLight.png);
     color: white;
     z-index: 1;
