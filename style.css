@@ -85,31 +85,6 @@ header {
     z-index: 1;
 }
 
-a:hover {
-    color: #dfffff;
-}
-
-.menu:link {
-    font-family: "Audiowide";
-    font-size: 1.2em;
-    color: #a1feff;
-    text-decoration: none;
-    margin-right: 2em;
-    transition: opacity .2s;
-}
-
-.menu:active {
-    color: #215e7a;
-}
-
-.menu:visited {
-    color: #a1feff;
-}
-
-.menu:hover {
-    opacity: .5;
-}
-
 .up {
     padding: 1em;
     transition: opacity .2s;
