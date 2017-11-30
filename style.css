@@ -36,12 +36,13 @@ body {
 
 h1,
 h2 {
-    font-family: 'Spectral SC', serif;
+    font-family: "";
     font-style: normal;
     font-weight: 400;
     font-size: 1.7em;
     margin: .5em;
     margin-top: 1.6em;
+    margin-left: 0;
 }
 
 #main {
@@ -66,48 +67,44 @@ header {
 #header {
     margin-top: 5em;
     overflow: visible;
-    color: white;
+    color: #95feff;
     padding-top: 2.5em;
     font-size: 1.5em;
 }
 
 .lys {
-<<<<<<< HEAD
-    background-color: #34495e;
-=======
     background-color: #69C0F0;
->>>>>>> 500012627aea9abb11d74e1d3a41f36b0f959445
     background-image: url(bilder/BGTileLight.png);
-    color: white;
+    color: #105f84;
     z-index: 1;
 }
 
 .mork {
     background-color: darkblue;
     background-image: url(bilder/BGTileDark_2.png);
-    color: white;
+    color: #95feff;
     z-index: 1;
 }
 
 a:hover {
-    color: white;
+    color: #dfffff;
 }
 
 .menu:link {
-    font-family: 'Spectral SC', serif;
+    font-family: "Audiowide";
     font-size: 1.2em;
-    color: white;
+    color: #a1feff;
     text-decoration: none;
     margin-right: 2em;
     transition: opacity .2s;
 }
 
 .menu:active {
-    color: white;
+    color: #215e7a;
 }
 
 .menu:visited {
-    color: white;
+    color: #a1feff;
 }
 
 .menu:hover {
