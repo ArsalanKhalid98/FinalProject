@@ -36,7 +36,7 @@ body {
 
 h1,
 h2 {
-    font-family: "";
+    font-family: 'Spectral SC', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.7em;
@@ -67,7 +67,7 @@ header {
 #header {
     margin-top: 5em;
     overflow: visible;
-    color: #95feff;
+    color: white;
     padding-top: 2.5em;
     font-size: 1.5em;
 }
@@ -75,14 +75,13 @@ header {
 .lys {
     background-color: #69C0F0;
     background-image: url(bilder/BGTileLight.png);
-    color: #105f84;
+    color: white;
     z-index: 1;
 }
 
 .mork {
     background-color: #3498db;
-    background-image: url(bilder/BGTileDark_2.png);
-    color: #95feff;
+    color: white;
     z-index: 1;
 }
 
@@ -119,4 +118,6 @@ a:hover {
 .up:hover {
     opacity: .5;
 }
-
+.meme {
+    width: 50%;
+}
