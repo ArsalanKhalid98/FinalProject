@@ -34,11 +34,9 @@ body {
 	opacity: .5;
 }
 
-
-
 h1,
 h2 {
-    font-family: "Audiowide";
+    font-family: "";
     font-style: normal;
     font-weight: 400;
     font-size: 1.7em;
@@ -48,7 +46,7 @@ h2 {
 }
 
 #main {
-    padding-top: 40%;
+    padding-top: 35%;
 }
 
 .wrapper {
@@ -58,7 +56,7 @@ h2 {
 }
 
 header {
-    background-image: url(bilder/headerBG_2.png);
+    background-color: #3498db;
     background-size: 100%;
     height: 100%;
     width: 100%;
@@ -120,7 +118,4 @@ a:hover {
 
 .up:hover {
     opacity: .5;
-}
-.wrapper img {
-    
 }
