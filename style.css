@@ -11,7 +11,7 @@ body {
     font-size: 1.8em;
 }
 .knapper a {
-    padding-right: 2em;
+    margin-right: 2em;
 }
 .bildet:hover
 {
@@ -26,8 +26,8 @@ body {
 #awtop {
     width: 8em;
     float: left;
-    padding-left: 22%;
-    padding-top: 0.8em;
+    margin-left: 22%;
+    margin-top: 0.8em;
 }
 .knapp:hover
 {
@@ -48,7 +48,6 @@ h2 {
 }
 
 #main {
-    height: 40%;
     padding-top: 40%;
 }
 
@@ -68,6 +67,7 @@ header {
 }
 
 #header {
+    margin-top: 5em;
     overflow: visible;
     color: #95feff;
     padding-top: 2.5em;
@@ -86,16 +86,6 @@ header {
     background-image: url(bilder/BGTileDark_2.png);
     color: #95feff;
     z-index: 1;
-}
-
-a:link {
-    font-family: sans-serif;
-    color: #a1feff;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #a1feff;
 }
 
 a:hover {
@@ -130,4 +120,7 @@ a:hover {
 
 .up:hover {
     opacity: .5;
+}
+.wrapper img {
+    
 }
