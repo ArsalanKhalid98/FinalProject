@@ -33,3 +33,101 @@ body {
 {
 	opacity: .5;
 }
+
+
+
+h1,
+h2 {
+    font-family: "Audiowide";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7em;
+    margin: .5em;
+    margin-top: 1.6em;
+    margin-left: 0;
+}
+
+#main {
+    height: 40%;
+    padding-top: 40%;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+header {
+    background-image: url(bilder/headerBG_2.png);
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    z-index: -50;
+    position: fixed;
+}
+
+#header {
+    overflow: visible;
+    color: #95feff;
+    padding-top: 2.5em;
+    font-size: 1.5em;
+}
+
+.lys {
+    background-color: lightskyblue;
+    background-image: url(bilder/BGTileLight.png);
+    color: #105f84;
+    z-index: 1;
+}
+
+.mork {
+    background-color: darkblue;
+    background-image: url(bilder/BGTileDark_2.png);
+    color: #95feff;
+    z-index: 1;
+}
+
+a:link {
+    font-family: sans-serif;
+    color: #a1feff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a1feff;
+}
+
+a:hover {
+    color: #dfffff;
+}
+
+.menu:link {
+    font-family: "Audiowide";
+    font-size: 1.2em;
+    color: #a1feff;
+    text-decoration: none;
+    margin-right: 2em;
+    transition: opacity .2s;
+}
+
+.menu:active {
+    color: #215e7a;
+}
+
+.menu:visited {
+    color: #a1feff;
+}
+
+.menu:hover {
+    opacity: .5;
+}
+
+.up {
+    padding: 1em;
+    transition: opacity .2s;
+}
+
+.up:hover {
+    opacity: .5;
+}
