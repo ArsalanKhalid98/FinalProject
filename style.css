@@ -115,13 +115,15 @@ bakgrunn {
 .meme {
     width: 50%;
 }
-
+.pil{
+    z-index: 2;
+    position: fixed;
+}
 
 .up {
-    padding: 1em;
+    padding-top: 140%;
+    padding-left: 10%;
     transition: opacity .2s;
+    width: 15%;
 }
 
-.up:hover {
-    opacity: .5;
-}
