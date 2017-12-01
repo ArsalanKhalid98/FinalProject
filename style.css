@@ -49,14 +49,13 @@ h2 {
     margin-left: 0;
 }
 
-
 .wrapper {
     width: 70%;
     margin: auto;
     padding: 1em;
 }
 
-header {
+bakgrunn {
     background-color: #3498db;
     background-image: url(bilder/bigbg.png);
     background-repeat: no-repeat;
