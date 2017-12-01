@@ -4,6 +4,7 @@ body {
 .nav {
     position: fixed;
     width: 100%;
+    display: inline;
 }
 .knapper {
 	width: 100%;
@@ -25,7 +26,11 @@ body {
 	color: white;
 	text-decoration: none;
     font-family: 'Spectral SC', serif;
-    
+}
+#aces {
+    padding-left: 10%;
+    padding-right: 20%;
+    font-size:35px;
 }
 #awtop {
     width: 8em;
