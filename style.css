@@ -101,8 +101,9 @@ bakgrunn {
     background-image: url(bilder/banner_ace.png);
     background-color: white;
     background-repeat: no-repeat;
-    height: 852px;
-    width: auto;
+    background-size: contain;
+    height: 426.5px;
+    width: 100%;
     
 }
 
