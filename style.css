@@ -8,7 +8,6 @@ body {
 .nav {
     position: fixed;
     width: 100%;
-    display: inline;
     -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
@@ -18,8 +17,7 @@ body {
     width: 100%;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
-    text-align: center;
-    background-color: #2980b9;
+    background-color: #34495e;
     font-size: 1.8em;
 }
 
@@ -32,15 +30,14 @@ body {
 }
 
 .nav a {
-    font-family: sans-serif;
     color: white;
     text-decoration: none;
     font-family: 'Spectral SC', serif;
 }
 
 #aces {
-    padding-left: 10%;
-    padding-right: 20%;
+    margin-left: 20%;
+    margin-right: 24%;
     font-size: 35px;
 }
 
@@ -58,9 +55,8 @@ body {
 h1,
 h2 {
     font-family: 'Spectral SC', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 1;
+    font-size: 2.3em;
     margin: .5em;
     margin-left: 0;
 }
@@ -89,27 +85,28 @@ h2 {
 
 
 .topp {
-    background-color: #34495e;
+    background-color: #2980b9;
     color: white;
-	border-bottom: 1px solid white;
-	border-top: 1px solid white;
+	
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
 
 .bunn {
     color: white;
-    background-color: #2980b9;
+	background-color: #3498db;
 }
 
 .banner {
     color: white;
-    z-index: 1;
-    background-color: #2980b9;
-    
 }
 
 .banner img {
-    height: auto;
     width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
 }
 
 .meme {
