@@ -9,6 +9,9 @@ body {
     position: fixed;
     width: 100%;
     display: inline;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
 
 .knapper {
@@ -86,7 +89,7 @@ bakgrunn {
 
 
 .topp {
-    background-color: #e67e22;
+    background-color: #34495e;
     color: white;
     z-index: 1;
 }
@@ -94,7 +97,7 @@ bakgrunn {
 .bunn {
     color: white;
     z-index: 1;
-    background-color: #3498db;
+    background-color: #2980b9;
 }
 
 .meme {
