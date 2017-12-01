@@ -71,7 +71,7 @@ h2 {
     padding: 1em;
 }
 
-bakgrunn {
+#bakgrunn {
     background-color: #3498db;
     background-image: url(bilder/bigbg.png);
     background-repeat: no-repeat;
@@ -91,12 +91,12 @@ bakgrunn {
 .topp {
     background-color: #34495e;
     color: white;
-    z-index: 1;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
 }
 
 .bunn {
     color: white;
-    z-index: 1;
     background-color: #2980b9;
 }
 
@@ -123,10 +123,10 @@ bakgrunn {
     transition: opacity .2s;
 }
 .pil:hover {
-    opacity: .5;    
+    opacity: 0.5;    
 }
 .up {
     transition: opacity .2s;
-    width: 13%;
+    width: 75px;
 }
 
