@@ -97,6 +97,15 @@ bakgrunn {
     background-color: #3498db;
 }
 
+.banner {
+    background-image: url(bilder/banner_ace.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 852px;
+    width: auto;
+    
+}
+
 .meme {
     width: 50%;
 }
