@@ -67,26 +67,24 @@ h2 {
     padding: 1em;
 }
 
-#bakgrunn {
+#header {
     background-color: #3498db;
-    background-image: url(bilder/bigbg.png);
+    background-image: url(bilder/banner3.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
     height: 100%;
     width: 100%;
-    z-index: -2;
-    position: fixed;
 }
 
 .jumbotron {
-    height: 75%;
-    padding-top: 90px;
+    height: 51%;
+    padding-top: 70px;
 }
 
 
 .topp {
-    background-color: #2980b9;
-    color: white;
+    background-color: #ecf0f1;
+    color: black;
 	
     -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
@@ -94,12 +92,8 @@ h2 {
 }
 
 .bunn {
-    color: white;
-	background-color: #3498db;
-}
-
-.banner {
-    color: white;
+    color: black;
+	background-color: #bdc3c7;
 }
 
 .banner img {
@@ -125,5 +119,9 @@ h2 {
 .up {
     transition: opacity .2s;
     width: 75px;
+}
+.footer{
+	color: white;
+	background-color: #34495e
 }
 
