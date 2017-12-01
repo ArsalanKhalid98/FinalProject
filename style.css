@@ -88,6 +88,15 @@ bakgrunn {
     z-index: 1;
     background-color: #3498db;
 }
+
+.bilde {
+    background-image: url(bilder/banner_ace.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 852px;
+    width: auto;
+    
+}
 .meme {
     width: 50%;
 }
