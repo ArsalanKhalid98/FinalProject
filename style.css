@@ -100,3 +100,13 @@ bakgrunn {
 .meme {
     width: 50%;
 }
+
+
+.up {
+    padding: 1em;
+    transition: opacity .2s;
+}
+
+.up:hover {
+    opacity: .5;
+}
