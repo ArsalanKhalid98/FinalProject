@@ -1,40 +1,37 @@
 body {
     margin: 0px;
 }
-
 .knapper {
-    width: 100%;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-    text-align: center;
+	width: 100%;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	text-align: center;
     background-color: #2980b9;
     font-size: 1.8em;
 }
-
 .knapper a {
     margin-right: 1.5em;
 }
-
-.bildet:hover {
-    opacity: .5;
+.bildet:hover
+{
+	opacity: .5;
 }
-
-.nav a {
+.nav a{
     font-family: sans-serif;
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
     font-family: 'Spectral SC', serif;
+    
 }
-
 #awtop {
     width: 8em;
     float: left;
     margin-left: 15%;
     margin-top: 0.8em;
 }
-
-.knapp:hover {
-    opacity: .5;
+.knapp:hover
+{
+	opacity: .5;
 }
 
 h1,
@@ -48,9 +45,6 @@ h2 {
     margin-left: 0;
 }
 
-#main {
-    padding-top: 31.250em;
-}
 
 .wrapper {
     width: 70%;
@@ -65,13 +59,11 @@ header {
     z-index: -2;
     position: fixed;
 }
-
-header img {
+.jumbotron img {
     width: 400px;
 }
 
 #header {
-    margin-top: 5em;
     color: white;
     padding-top: 2.5em;
     font-size: 1.5em;
@@ -85,20 +77,9 @@ header img {
 
 .bunn {
     background-color: #3498db;
-    background-image: url(bilder/BGTileLight.png);
     color: white;
     z-index: 1;
 }
-
-.up {
-    padding: 1em;
-    transition: opacity .2s;
-}
-
-.up:hover {
-    opacity: .5;
-}
-
 .meme {
     width: 50%;
 }
