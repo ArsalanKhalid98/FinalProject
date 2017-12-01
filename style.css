@@ -116,14 +116,17 @@ bakgrunn {
     width: 50%;
 }
 .pil{
+    left: 5%;
+    top: 85%;
     z-index: 2;
     position: fixed;
-}
-
-.up {
-    padding-top: 140%;
-    padding-left: 10%;
     transition: opacity .2s;
-    width: 15%;
+}
+.pil:hover {
+    opacity: .5;    
+}
+.up {
+    transition: opacity .2s;
+    width: 13%;
 }
 
