@@ -1,6 +1,10 @@
 body {
     margin: 0px;
 }
+.nav {
+    position: fixed;
+    width: 100%;
+}
 .knapper {
 	width: 100%;
 	padding-top: 0.8em;
@@ -67,6 +71,7 @@ header {
 }
 .jumbotron {
     height: 500px;
+    padding-top: 90px;
 }
 
 #header {
