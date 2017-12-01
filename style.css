@@ -83,7 +83,7 @@ h2 {
 
 
 .topp {
-    background-color: #ecf0f1;
+	background-color: #bdc3c7;
     color: black;
 	
     -webkit-box-shadow: 0 8px 6px -6px black;
@@ -92,8 +92,8 @@ h2 {
 }
 
 .bunn {
+    background-color: #ecf0f1;
     color: black;
-	background-color: #bdc3c7;
 }
 
 .banner img {
