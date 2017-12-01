@@ -77,22 +77,18 @@ h2 {
 }
 
 .jumbotron {
-    height: 51%;
+    height: 58%;
     padding-top: 70px;
 }
 
 
 .topp {
-	background-color: #bdc3c7;
+    background-color: #ecf0f1;
     color: black;
-	
-    -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
 }
 
 .bunn {
-    background-color: #ecf0f1;
+	background-color: white;
     color: black;
 }
 
