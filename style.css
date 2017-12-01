@@ -70,19 +70,12 @@ bakgrunn {
     z-index: -2;
     position: fixed;
 }
-.jumbotron img {
-    width: 400px;
-}
+
 .jumbotron {
-    height: 600px;
+    height: 550px;
     padding-top: 90px;
 }
 
-#header {
-    color: white;
-    padding-top: 2.5em;
-    font-size: 1.5em;
-}
 
 .topp {
     background-color: #69C0F0;
