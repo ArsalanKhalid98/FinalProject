@@ -207,8 +207,10 @@ input[type=text] {
 .submitemail {
     box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.22);
 }
-
 .some {
     float: right;
     font-size: 30px;
+}
+.column {
+    margin-top: 20px;
 }
