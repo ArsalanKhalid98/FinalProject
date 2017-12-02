@@ -34,10 +34,13 @@ body {
     text-decoration: none;
     font-family: 'Spectral SC', serif;
 }
-
+.ayy {
+    float: right;
+    margin-right: 15%;
+    
+}
 #aces {
-    margin-left: 20%;
-    margin-right: 24%;
+    margin-left: 15%;
 }
 
 #awtop {
