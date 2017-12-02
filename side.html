@@ -7,19 +7,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+<<<<<<< HEAD
     <script src="#"></script>
 
+=======
+    <script src="script.js"></script>
+>>>>>>> 95bbac710336af6194103588bdaeba05a07657b5
     <meta charset="UTF-8">
 </head>
 
 <body>
-    <a class="pil" href="#tester" title="Opp til toppen"><img src="bilder/pilopp.png" class="up" alt="oppKnapp"></a>
+    <a class="pil" title="Opp til toppen" id="toppen" onclick="topFunction()"><img src="bilder/pilopp.png" class="up" alt="oppKnapp"></a>
     <div id="bakgrunn"></div>
     <div class="nav" id="nav">
         <div class="knapper">
-            <a class="knapp" href="#header" id="aces">ACE</a>
+            <a class="knapp" href="#" id="aces">ACE</a>
             <a class="knapp" href="#om">About</a>
-            <a class="knapp" href="#hva">What</a>
+            <a class="knapp" href="#hva">Product</a>
             <a class="knapp" href="#hvordan">How</a>
             <a class="knapp" href="#kontakt">Contact</a>
         </div>
@@ -29,17 +33,19 @@
         </div>
     </div>
     <section id="main">
+       <a class="anker" id="om"></a>
         <section class="topp">
-            <div class="wrapper" id="om">
+            <div class="wrapper">
                 <h2>About ACE</h2>
                 <p>ACE er Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid reiciendis repellat iste, ad praesentium vero id ratione at earum in. Eos commodi perspiciatis sit molestiae officia laborum ratione aliquid minima.</p>
                 <p>ACE Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum, eum minus ullam a fuga qui quia? Laudantium, neque eligendi.</p>
                 <p>ACE Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim blanditiis similique, rem error non animi voluptatem dicta, illum eveniet voluptatibus modi est nostrum impedit ab eius odio architecto iste itaque culpa! Officia, dolore doloremque!</p>
             </div>
         </section>
+        <a class="anker" id="hva"></a>
         <section class="bunn">
-            <div class="wrapper" id="hva">
-                <h2>What is ACE?</h2>
+            <div class="wrapper">
+                <h2>Product</h2>
                 <p>ACE er Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid reiciendis repellat iste, ad praesentium vero id ratione at earum in. Eos commodi perspiciatis sit molestiae officia laborum ratione aliquid minima.</p>
                 <p>ACE Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum, eum minus ullam a fuga qui quia? Laudantium, neque eligendi.</p>
                 <p>ACE Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim blanditiis similique, rem error non animi voluptatem dicta, illum eveniet voluptatibus modi est nostrum impedit ab eius odio architecto iste itaque culpa! Officia, dolore doloremque!</p>
@@ -48,16 +54,18 @@
         <section class="banner">
             <img src="bilder/collage.png">
         </section>
+        <a class="anker" id="hvordan"></a>
         <section class="topp">
-            <div class="wrapper" id="hvordan">
+            <div class="wrapper">
                 <h2>How does ACE work</h2>
                 <p>ACE er Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid reiciendis repellat iste, ad praesentium vero id ratione at earum in. Eos commodi perspiciatis sit molestiae officia laborum ratione aliquid minima.</p>
                 <p>ACE Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum, eum minus ullam a fuga qui quia? Laudantium, neque eligendi.</p>
                 <p>ACE Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim blanditiis similique, rem error non animi voluptatem dicta, illum eveniet voluptatibus modi est nostrum impedit ab eius odio architecto iste itaque culpa! Officia, dolore doloremque!</p>
             </div>
         </section>
+        <a class="anker" id="kontakt"></a>
         <section class="bunn">
-            <div class="wrapper" id="kontakt">
+            <div class="wrapper">
                 <h2>How to Contact</h2>
                 <p>This project is in a early stage. If you want infomation or if you want to contact us, you can reach us on following sites.</p>
                 <a href="#" class="fa fa-facebook" style="font-size: 30px;"></a>
