@@ -107,7 +107,7 @@ h2 {
 #toppen{
     position: fixed;
     bottom: 40px;
-    left: 40px;
+    right: 40px;
     z-index: 2;
     transition: opacity .2s;
     display: none;
@@ -124,5 +124,11 @@ h2 {
 .footer{
 	color: white;
 	background-color: #34495e
+}
+.anker {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
 }
 
