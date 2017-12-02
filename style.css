@@ -83,7 +83,6 @@ h2 {
     padding-top: 61px;
 }
 
-
 .topp {
     background-color: #ecf0f1;
     color: black;
@@ -104,20 +103,25 @@ h2 {
 .meme {
     width: 50%;
 }
-.pil{
-    left: 5%;
-    top: 85%;
-    z-index: 2;
+
+#toppen{
     position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
     transition: opacity .2s;
+    width: 75px;
+    display: none;
 }
+
 .pil:hover {
     opacity: 0.5;    
 }
+
 .up {
-    transition: opacity .2s;
     width: 75px;
 }
+
 .footer{
 	color: white;
 	background-color: #34495e
