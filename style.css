@@ -8,9 +8,9 @@ body {
 .nav {
     position: fixed;
     width: 100%;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+    -webkit-box-shadow: 0 0 8px black;
+	   -moz-box-shadow: 0 0 8px black;
+	        box-shadow: 0 0 8px black;
 }
 
 .knapper {
@@ -34,11 +34,13 @@ body {
     text-decoration: none;
     font-family: 'Spectral SC', serif;
 }
+
 .ayy {
     float: right;
     margin-right: 15%;
     
 }
+
 #aces {
     margin-left: 15%;
 }
@@ -109,7 +111,7 @@ h2 {
 
 #toppen{
     position: fixed;
-    bottom: 40px;
+    bottom: 100px;
     right: 40px;
     z-index: 2;
     transition: opacity .2s;
@@ -128,6 +130,7 @@ h2 {
 	color: white;
 	background-color: #34495e
 }
+
 .anker {
     display: block;
     position: relative;
