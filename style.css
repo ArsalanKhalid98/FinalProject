@@ -9,8 +9,8 @@ body {
     position: fixed;
     width: 100%;
     -webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .knapper {
@@ -34,11 +34,13 @@ body {
     text-decoration: none;
     font-family: 'Spectral SC', serif;
 }
+
 .ayy {
     float: right;
     margin-right: 15%;
-    
+
 }
+
 #aces {
     margin-left: 15%;
 }
@@ -74,7 +76,7 @@ h2 {
     background-image: url(bilder/banner3.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     z-index: -2;
     position: fixed;
     height: 58%;
@@ -92,22 +94,22 @@ h2 {
 }
 
 .bunn {
-	background-color: white;
+    background-color: white;
     color: black;
 }
 
 .banner img {
     width: 100%;
-	margin: 0;
-	padding: 0;
-	display: block;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 .meme {
     width: 50%;
 }
 
-#toppen{
+#toppen {
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -117,17 +119,18 @@ h2 {
 }
 
 .pil:hover {
-    opacity: 0.5;    
+    opacity: 0.5;
 }
 
 .up {
     width: 50px;
 }
 
-.footer{
-	color: white;
-	background-color: #34495e
+.footer {
+    color: white;
+    background-color: #34495e
 }
+
 .anker {
     display: block;
     position: relative;
@@ -136,13 +139,13 @@ h2 {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
 }
 
 .fa:hover {
@@ -150,20 +153,52 @@ h2 {
 }
 
 /* Reddit */
+
 .fa-reddit {
-  background: #ff5700;
-  color: white;
+    background: #ff5700;
+    color: white;
 }
 
 /* Facebook */
+
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
 
 /* Twitter */
+
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
 
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.submitemail {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
