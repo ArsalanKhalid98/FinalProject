@@ -22,7 +22,7 @@ body {
 }
 
 .knapper a {
-    margin-right: 1.5em;
+    margin-left: 1.5em;
 }
 
 .bildet:hover {
@@ -83,7 +83,7 @@ h2 {
 
 .jumbotron {
     height: 58%;
-    padding-top: 61px;
+    padding-top: 60px;
 }
 
 .topp {
