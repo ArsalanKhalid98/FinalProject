@@ -205,15 +205,3 @@ input[type=text] {
 .submitemail {
     box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.22);
 }
-
-<<<<<<< HEAD
-.column {
-    display: inline-block;
-    float: left;
-    width: 33.33%;
-=======
-.some {
-    float: right;
-    font-size: 30px;
->>>>>>> 53598dcdc62fba0e377240be0828cad4c8f73498
-}
