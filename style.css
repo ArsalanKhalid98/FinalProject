@@ -8,9 +8,6 @@ body {
 .nav {
     position: fixed;
     width: 100%;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 6px -6px black;
     -webkit-box-shadow: 0 0 8px black;
     -moz-box-shadow: 0 0 8px black;
     box-shadow: 0 0 8px black;
@@ -131,7 +128,8 @@ h2 {
 
 .footer {
     color: white;
-    background-color: #34495e
+    background-color: #34495e;
+    height: 100px;
 }
 
 .footer .some {
@@ -147,7 +145,6 @@ h2 {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -159,21 +156,15 @@ h2 {
     opacity: 0.7;
 }
 
-/* Reddit */
-
 .fa-reddit {
     background: #ff5700;
     color: white;
 }
 
-/* Facebook */
-
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
-
-/* Twitter */
 
 .fa-twitter {
     background: #55ACEE;
@@ -182,8 +173,8 @@ h2 {
 
 input[type=text] {
     width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 22px;
+    margin: 7px 0;
     box-sizing: border-box;
     font-size: 15px;
 }
@@ -200,7 +191,6 @@ input[type=text] {
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
 }
 
@@ -212,10 +202,7 @@ input[type=text] {
     box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.22);
 }
 
-#copyright {
-    float: right;
-    
-}
 .some {
-    float: left;
+    float: right;
+    font-size: 30px;
 }
