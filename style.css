@@ -38,7 +38,6 @@ body {
 #aces {
     margin-left: 20%;
     margin-right: 24%;
-    font-size: 35px;
 }
 
 #awtop {
@@ -71,6 +70,7 @@ h2 {
     background-color: #3498db;
     background-image: url(bilder/banner3.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size:cover;
     height: 100%;
     width: 100%;
@@ -78,7 +78,7 @@ h2 {
 
 .jumbotron {
     height: 58%;
-    padding-top: 70px;
+    padding-top: 61px;
 }
 
 
