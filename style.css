@@ -106,11 +106,10 @@ h2 {
 
 #toppen{
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 40px;
+    left: 40px;
     z-index: 2;
     transition: opacity .2s;
-    width: 75px;
     display: none;
 }
 
@@ -119,7 +118,7 @@ h2 {
 }
 
 .up {
-    width: 75px;
+    width: 50px;
 }
 
 .footer{
