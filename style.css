@@ -127,12 +127,7 @@ h2 {
 .footer {
     color: white;
     background-color: #34495e;
-    height: 120px;
-    margin-bottom: 0px;
-}
-
-.footer .some {
-    margin-left: 70%;
+    height: 110px;
 }
 
 .anker {
@@ -205,7 +200,7 @@ input[type=text] {
     font-size: 30px;
 }
 .column {
-    margin-top: 20px;
+	float: left;
 }
 
 p
@@ -218,4 +213,12 @@ label
 {
 	font-size: 1.2em;
     font-family: 'Lato', sans-serif;
+}
+
+.some li {
+	display: inline;
+	
+}.some ul {
+	margin: 0;
+	padding: 0;
 }
