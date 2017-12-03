@@ -218,20 +218,20 @@ input[type=text] {
 
 p
 {
-	font-size: 20px;
-    font-family: 'Spectral SC', serif;
+	font-size: 1em;
+    font-family: 'Spectral SC';
 }
 
 label
 {
-	font-size: 20px;
-    font-family: 'Spectral SC', serif;
+	font-size: 1em;
+    font-family: 'Spectral SC';
 }
 
 
 
 li
 {
-	font-size: 20px;
-    font-family: 'Spectral SC', serif;
+	font-size: 1em;
+    font-family: 'Spectral SC';
 }
