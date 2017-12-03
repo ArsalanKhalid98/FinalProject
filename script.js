@@ -1,6 +1,6 @@
-window.onscroll = function () {scrollFunction()};
+window.onscroll = function () {tiptopp()};
 
-function scrollFunction() {
+function tiptopp() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("toppen").style.display = "block";
     } else {
