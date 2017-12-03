@@ -88,12 +88,6 @@ h2 {
     padding-top: 60px;
 }
 
-
-.hva {
-    background-color: white;
-    color: black;
-    width: 63%
-}
 .topp {
     background-color: #ecf0f1;
     color: black;
@@ -117,7 +111,7 @@ h2 {
 
 #toppen {
     position: fixed;
-    bottom: 100px;
+    bottom: 122px;
     right: 40px;
     z-index: 2;
     transition: opacity .2s;
@@ -135,7 +129,7 @@ h2 {
 .footer {
     color: white;
     background-color: #34495e;
-    height: 100px;
+    height: 120px;
     margin-bottom: 0px;
 }
 
@@ -218,20 +212,12 @@ input[type=text] {
 
 p
 {
-	font-size: 1em;
-    font-family: 'Spectral SC';
+	font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
 }
 
 label
 {
-	font-size: 1em;
-    font-family: 'Spectral SC';
-}
-
-
-
-li
-{
-	font-size: 1em;
-    font-family: 'Spectral SC';
+	font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
 }
