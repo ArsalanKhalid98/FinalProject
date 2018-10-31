@@ -19,3 +19,12 @@ function tiptopp() {
 function slett() {
 	document.getElementById("email").value = "";
 }
+
+// Added a eventlistener to the form so it reacts to when ENTER is pressed and not only the button.
+const form = document.querySelector('form');
+const submitButton = form.querySelector('button');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+});
+
