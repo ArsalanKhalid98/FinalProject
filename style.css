@@ -36,7 +36,7 @@ body {
     font-family: 'Spectral SC', serif;
 }
 
-.ayy {
+.navigationbuttons {
     float: right;
     margin-right: 15%;
 
@@ -202,4 +202,16 @@ label
 }.some ul {
 	margin: 0;
 	padding: 0;
+}
+
+.hamburgler {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .navigationbuttons {display: none;}
+  .navigationbuttons a.hamburgler {
+    float: right;
+    display: block;
+  }
 }
