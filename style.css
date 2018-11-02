@@ -6,12 +6,25 @@ body {
     scroll-behavior: smooth;
 }
 
+/*////////////////////////// NAVIGATION BAR //////////////////////////*/
+
 .nav {
     position: fixed;
     width: 100%;
     -webkit-box-shadow: 0 0 8px black;
     -moz-box-shadow: 0 0 8px black;
     box-shadow: 0 0 8px black;
+}
+
+#aces {
+    margin-left: 15%;
+}
+
+.anker {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
 }
 
 .knapper {
@@ -26,7 +39,7 @@ body {
     margin-left: 1.5em;
 }
 
-.bildet:hover {
+.knapp:hover {
     opacity: .5;
 }
 
@@ -42,35 +55,41 @@ body {
 
 }
 
-#aces {
-    margin-left: 15%;
+.hamburgler {
+    margin-top: 7px;
+    display: none;
 }
 
-#awtop {
-    width: 8em;
-    float: left;
-    margin-left: 15%;
-    margin-top: 0.8em;
+.hamb {
+    width:25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
 }
 
-.knapp:hover {
-    opacity: .5;
+@media screen and (max-width: 1050px) {
+  .navigationbuttons .knapp{display: none;}
+  .navigationbuttons .hamburgler {
+    float: right;
+    display: block;
+  }
 }
 
-h1,
-h2 {
-    font-family: 'Spectral SC', serif;
-    font-weight: 1;
-    font-size: 2.3em;
-    margin: .5em;
-    margin-left: 0;
+@media screen and (max-width: 1050px) {
+  .navigationbuttons .responsive {position: relative;}
+  .navigationbuttons .responsive .hamburgler {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigationbuttons .responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
-.wrapper {
-    width: 70%;
-    margin: auto;
-    padding: 1em;
-}
+/*////////////////////////// JUMBOTRON //////////////////////////*/
 
 #header {
     background-image: url(bilder/banner3.png);
@@ -87,6 +106,23 @@ h2 {
     padding-top: 60px;
 }
 
+/*////////////////////////// MAIN //////////////////////////*/
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+}
+
+h1,
+h2 {
+    font-family: 'Spectral SC', serif;
+    font-weight: 1;
+    font-size: 2.3em;
+    margin: .5em;
+    margin-left: 0;
+}
+
 .topp {
     background-color: #ecf0f1;
     color: black;
@@ -97,6 +133,14 @@ h2 {
     color: black;
 }
 
+p
+{
+	font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+}
+
+/*////////////////////////// PICTURE //////////////////////////*/
+
 .banner img {
     width: 100%;
     margin: 0;
@@ -104,9 +148,7 @@ h2 {
     display: block;
 }
 
-.meme {
-    width: 50%;
-}
+/*////////////////////////// HOMEARROW //////////////////////////*/
 
 #toppen {
     position: fixed;
@@ -125,26 +167,7 @@ h2 {
     width: 50px;
 }
 
-.footer {
-    color: white;
-    background-color: #34495e;
-    height: 110px;
-}
-
-.anker {
-    display: block;
-    position: relative;
-    top: -55px;
-    visibility: hidden;
-}
-
-.fa {
-    width: 70px;
-}
-
-.fa:hover {
-    opacity: .5;
-}
+/*////////////////////////// CONTACT //////////////////////////*/
 
 input[type=text] {
 	margin: 15px 0px;
@@ -175,25 +198,35 @@ input[type=text] {
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
 }
 
-.some {
-    float: right;
-    font-size: 30px;
+label
+{
+	font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+}
+
+/*////////////////////////// FOOTER //////////////////////////*/
+
+.footer {
+    color: white;
+    background-color: #34495e;
+    height: 110px;
 }
 
 .column {
 	float: left;
 }
 
-p
-{
-	font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
+.fa {
+    width: 70px;
 }
 
-label
-{
-	font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
+.fa:hover {
+    opacity: .5;
+}
+
+.some {
+    float: right;
+    font-size: 30px;
 }
 
 .some li {
@@ -202,24 +235,4 @@ label
 }.some ul {
 	margin: 0;
 	padding: 0;
-}
-
-.hamburgler {
-    display: none;
-}
-
-.hamb {
-    margin-top: 200px;
-    width:25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px 0;
-}
-
-@media screen and (max-width: 1050px) {
-  .navigationbuttons .knapp{display: none;}
-  .navigationbuttons .hamburgler {
-    float: right;
-    display: block;
-  }
 }
