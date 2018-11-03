@@ -27,11 +27,11 @@ function handle(e) {
     }
 }
 
-function navigationmenu(){
-    var x = document.getElementById("nav");
-    if (x.className === "nav") {
-        x.className += "responsive";
+function navpopoff(){
+    var x = document.getElementById("knapper");
+    if (x.className === "knapper") {
+        x.className = "dropdown";
     } else {
-        x.className = "nav";
+        x.className = "knapper";
     }
 }
