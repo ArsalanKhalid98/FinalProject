@@ -35,3 +35,8 @@ function navpopoff(){
         x.className = "knapper";
     }
 }
+
+function closemenu() {
+    var x = document.getElementById("knapper");
+    if(x.className === "dropdown")x.className = "knapper";
+}

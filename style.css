@@ -68,10 +68,7 @@ body {
 @media screen and (max-width: 1050px) {
     .dropdown {
         padding-top: 0.3em;
-        padding-bottom: 0.3em;
         font-size: 1.8em;
-        padding-left: 15%;
-        padding-right: 15%;
     }
     .nav .hamburgler {
         position: absolute;
@@ -80,10 +77,25 @@ body {
     }
     .nav .dropdown .navigationbuttons a:not(:last-child) {
         display: block;
-        text-align: left;
+        text-align: center;
+        padding-bottom: 0.2em;
+        padding-top: 0.2em;
+        margin-left: 0;
     }
-    .nav .dropdown .navigationbuttons {
-        padding-top: 5%;
+    .nav .dropdown .navigationbuttons a:not(:last-child):hover {
+        background-color: #2f3542;
+    }
+    .nav .dropdown .aceknapp {
+        padding-left: 15%;
+        top: 9px;
+    }
+    .nav .dropdown .navigationbuttons { 
+        -webkit-box-shadow: 0 0 2px black;
+        -moz-box-shadow: 0 0 2px black;
+        box-shadow: 0 0 2px black;
+        margin-top: 10px;
+        float: none;
+        background-color: #2c3e50;
     }
 }
 
