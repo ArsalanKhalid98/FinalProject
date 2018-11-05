@@ -40,3 +40,15 @@ function closemenu() {
     var x = document.getElementById("knapper");
     if(x.className === "dropdown")x.className = "knapper";
 }
+
+// Snackbar that appears when user enters email
+function snackFunction() {
+
+        var snack = document.getElementById("snackbar");
+        snack.className = "show";
+        setTimeout(function () {
+            snack.className = snack.className.replace("show", "");
+        }, 3000);
+    
+    
+}
