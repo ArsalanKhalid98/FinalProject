@@ -11,9 +11,9 @@ body {
 .nav {
     position: fixed;
     width: 100%;
-    -webkit-box-shadow: 0 0 8px black;
-    -moz-box-shadow: 0 0 8px black;
-    box-shadow: 0 0 8px black;
+    -webkit-box-shadow: 0 0 2px black;
+    -moz-box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px black;
     background-color: #34495e;
 }
 
@@ -66,7 +66,8 @@ body {
 }
 
 @media screen and (max-width: 1050px) {
-    .dropdown {
+    .nav{}
+    .nav .dropdown {
         padding-top: 0.3em;
         font-size: 1.8em;
     }
@@ -88,6 +89,9 @@ body {
     .nav .dropdown .aceknapp {
         padding-left: 15%;
         top: 9px;
+    }
+    .dropdown .knapp:hover {
+        opacity: 1;
     }
     .nav .dropdown .navigationbuttons { 
         -webkit-box-shadow: 0 0 2px black;
