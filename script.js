@@ -52,3 +52,12 @@ function snackFunction() {
     
     
 }
+
+// Font-size changer
+
+const changer = document.getElementById("changer");
+const topp = document.querySelector('#main');
+
+changer.addEventListener('click', () => {
+    topp.style.fontSize = "xx-large";
+})
