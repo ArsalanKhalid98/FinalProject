@@ -24,7 +24,7 @@ body {
 }
 
 .knapper {
-    font-size: 1.8em;
+    font-size: 2.3em;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -40,14 +40,14 @@ body {
     padding: 0.3em;
     position: absolute;
     right: 15%;
-    top: 9px;
+    top: 13px;
 }
 
 .hamb {
-    width:25px;
-    height: 3px;
+    width:36px;
+    height: 6px;
     background-color: white;
-    margin: 5px 0;
+    margin-bottom: 6px;
 }
 
 .navigationbuttons .knapp:not(:last-child){
@@ -55,7 +55,7 @@ body {
 }
 
 .nav .dropdown {
-    font-size: 1.8em;
+    font-size: 2.3em;
 }
 
 .nav .dropdown .navigationbuttons a:not(:last-child) {
