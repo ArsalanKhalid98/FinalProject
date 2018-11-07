@@ -55,15 +55,19 @@ function snackFunction() {
 
 // Font-size changer
 
-var topp = document.querySelector("body");
+const topp = document.querySelector("body");
+const changer = document.querySelector("#changer");
 
 function changefont() {
     if(topp.style.fontSize == "large") {
+        changer.innerHTML = "text extra large";
         topp.style.fontSize = "x-large";
     }
     else if(topp.style.fontSize == "x-large") {
+        changer.innerHTML = "Text small";
         topp.style.fontSize = "initial";
     } else {
+        changer.innerHTML = "text large";
         topp.style.fontSize = "large";
     }
 
