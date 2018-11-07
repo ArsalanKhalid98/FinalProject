@@ -45,7 +45,11 @@ body {
 
 .hamburgler {
     margin-top: 7px;
-    display: none;
+    position: absolute;
+    right: 15%;
+    top: 9px;
+    float: right; 
+    display: block;
 }
 
 .hamb {
@@ -55,52 +59,43 @@ body {
     margin: 5px 0;
 }
 
-@media screen and (max-width: 1050px) {
-    .navigationbuttons .knapp{
-        display: none;
-    }
-    .navigationbuttons .hamburgler {
-        float: right;
-        display: block;
-    }
+.navigationbuttons .knapp:not(:last-child){
+    display: none;
 }
 
-@media screen and (max-width: 1050px) {
-    .nav{}
-    .nav .dropdown {
-        padding-top: 0.3em;
-        font-size: 1.8em;
-    }
-    .nav .hamburgler {
-        position: absolute;
-        right: 15%;
-        top: 9px;
-    }
-    .nav .dropdown .navigationbuttons a:not(:last-child) {
-        display: block;
-        text-align: center;
-        padding-bottom: 0.2em;
-        padding-top: 0.2em;
-        margin-left: 0;
-    }
-    .nav .dropdown .navigationbuttons a:not(:last-child):hover {
-        background-color: #2f3542;
-    }
-    .nav .dropdown .aceknapp {
-        padding-left: 15%;
-        top: 9px;
-    }
-    .dropdown .knapp:hover {
-        opacity: 1;
-    }
-    .nav .dropdown .navigationbuttons { 
-        -webkit-box-shadow: 0 0 2px black;
-        -moz-box-shadow: 0 0 2px black;
-        box-shadow: 0 0 2px black;
-        margin-top: 10px;
-        float: none;
-        background-color: #2c3e50;
-    }
+.nav .dropdown {
+    padding-top: 0.3em;
+    font-size: 1.8em;
+}
+
+.nav .dropdown .navigationbuttons a:not(:last-child) {
+    display: block;
+    text-align: center;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    margin-left: 0;
+}
+
+.nav .dropdown .navigationbuttons a:not(:last-child):hover {
+    background-color: #2f3542;
+}
+
+.nav .dropdown .aceknapp {
+    padding-left: 15%;
+    top: 9px;
+}
+
+.dropdown .knapp:hover {
+    opacity: 1;
+}
+
+.nav .dropdown .navigationbuttons { 
+    -webkit-box-shadow: 0 0 2px black;
+    -moz-box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px black;
+    margin-top: 10px;
+    float: none;
+    background-color: #2c3e50;
 }
 
 /*////////////////////////// JUMBOTRON //////////////////////////*/
@@ -140,8 +135,7 @@ h2 {
     font-family: 'Spectral SC', serif;
     font-weight: 1;
     font-size: 2.3em;
-    margin: .5em;
-    margin-left: 0;
+    margin: 0;
 }
 
 .topp {
@@ -154,8 +148,7 @@ h2 {
     color: black;
 }
 
-p
-{
+p {
 	font-size: 1.2em;
     font-family: 'Lato', sans-serif;
 }
@@ -317,9 +310,7 @@ btn.a:visited {
 .footer {
     color: white;
     background-color: #34495e;
-    height: 110px;
 }
-
 
 .column {
 	float: left;
@@ -341,7 +332,13 @@ btn.a:visited {
 .some li {
 	display: inline;
 	
-}.some ul {
+}
+
+.some ul {
 	margin: 0;
 	padding: 0;
+}
+
+.clear{
+    clear: both;
 }
