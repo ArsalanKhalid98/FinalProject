@@ -16,7 +16,7 @@ https://fonts.google.com/specimen/Spectral+SC
     <meta charset="UTF-8">
 </head>
 
-<body>
+<body id="body">
 	<!-- 
 		Code for the arrow that takes you to the top, onclick it starts the function refrenced in the code
 	-->
@@ -32,12 +32,12 @@ https://fonts.google.com/specimen/Spectral+SC
                 <a class="knapp" href="#product" onclick="closemenu()">Product</a>
                 <a class="knapp" href="#how" onclick="closemenu()">How</a>
                 <a class="knapp" href="#contact" onclick="closemenu()">Contact</a>
-                <a class="knapp" onclick="changefont(); closemenu()" id="changer">Change the font size</a>
+                <a class="knapp" onclick="changefont();" id="changer">text size</a>
                 <a class="knapp" href="#norsk" onclick="closemenu();">Norwegian</a>
-                <a href="javascript:void(0);" class="hamburgler knapp" onclick="navpopoff()">
-                    <div class="hamb"></div>
-                    <div class="hamb"></div>
-                    <div class="hamb"></div>
+                <a class="hamburgler knapp" onclick="navpopoff()">
+                    <div class="hamb" id="hamb"></div>
+                    <div class="hamb" id="hamb"></div>
+                    <div class="hamb" id="hamb"></div>
                 </a>
             </div>
         </div>
@@ -141,6 +141,7 @@ https://fonts.google.com/specimen/Spectral+SC
 					</ul>
 				</div>
             </div>
+            <div class="clear"></div>
         </section>
     </section>
     <!-- Load in JavaScript-->
