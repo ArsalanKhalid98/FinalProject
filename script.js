@@ -72,13 +72,15 @@ function changefont() {
     }
 
 }
-
-//Read more/Read less function 
-function readmoreReadless() {
   var readMore = document.getElementById("readMore");
   var more = document.getElementById("moreText");
   var btn = document.getElementById("Btn");
+    btn.addEventListener("click", readmoreReadless);
   var btn1 = document.getElementById("Btn1");
+    btn1.addEventListener("click", readmoreReadless);
+//Read more/Read less function 
+function readmoreReadless() {
+
 
   if (readMore.style.display === "none") {
     readMore.style.display = "inline";
