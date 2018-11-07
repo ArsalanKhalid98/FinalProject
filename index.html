@@ -32,6 +32,8 @@ https://fonts.google.com/specimen/Spectral+SC
                 <a class="knapp" href="#product" onclick="closemenu()">Product</a>
                 <a class="knapp" href="#how" onclick="closemenu()">How</a>
                 <a class="knapp" href="#contact" onclick="closemenu()">Contact</a>
+                <a class="knapp" onclick="changefont(); closemenu()" id="changer">Change the font size</a>
+                <a class="knapp" href="#norsk" onclick="closemenu();">Norwegian</a>
                 <a href="javascript:void(0);" class="hamburgler knapp" onclick="navpopoff()">
                     <div class="hamb"></div>
                     <div class="hamb"></div>
@@ -117,13 +119,13 @@ https://fonts.google.com/specimen/Spectral+SC
 
                 <!-- Snackbar div-->
                 <div id="snackbar">Thank you for signing up!</div>
-
-                <!-- Font-size changer-->
-                <button class="button" id="changer">Font Changer</button>
+                <!-- Font-size changer--><!--
+                <button class="button" id="changer" onclick="changefont();">Font Changer</button>
+                -->
             </div>
         </section>
 		<!-- 
-			Footer section is mostly redundant info about the pages socialmedia pages
+			Footer section is mostly redundant info about the pages socialmedia pages“
 		-->
         <section class="footer">
             <div class="wrapper" id="footer">
@@ -141,7 +143,6 @@ https://fonts.google.com/specimen/Spectral+SC
             </div>
         </section>
     </section>
-
     <!-- Load in JavaScript-->
     <script src="script.js"></script>
 </body>

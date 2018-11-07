@@ -55,15 +55,16 @@ function snackFunction() {
 
 // Font-size changer
 
-const changer = document.querySelector('#changer');
 const topp = document.querySelector('#main');
 
-changer.addEventListener('click', () => {
-    if(topp.style.fontSize == "xx-large") {
-        topp.style.fontSize = "initial";
-    }
-    else {
+function changefont() {
+    if(topp.style.fontSize == "x-large") {
         topp.style.fontSize = "xx-large";
     }
+    else if(topp.style.fontSize == "xx-large") {
+        topp.style.fontSize = "initial";
+    } else {
+        topp.style.fontSize = "x-large";
+    }
     
-})
+}
