@@ -67,7 +67,7 @@ function changefont() {
         topp.style.fontSize = "large";
     }
 
-})
+}
 
 //Read more/Read less function 
 function readmoreReadless() {
