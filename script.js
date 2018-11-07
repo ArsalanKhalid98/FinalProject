@@ -41,7 +41,7 @@ function closemenu() {
     if(x.className === "dropdown")x.className = "knapper";
 }
 
-// Snackbar that appears when user enters email
+// Snackbar that appears when user enters email from W3
 function snackFunction() {
 
         var snack = document.getElementById("snackbar");
@@ -82,7 +82,7 @@ function readmoreReadless() {
 
   if (readMore.style.display === "none") {
     readMore.style.display = "inline";
-    btn.innerHTML = "Read more"; 
+    btn.innerHTML = "Read more";
     more.style.display = "none";
     btn1.style.visibility = "hidden";  
   } else { 
