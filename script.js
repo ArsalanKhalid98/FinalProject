@@ -67,3 +67,23 @@ changer.addEventListener('click', () => {
     }
     
 })
+
+//Read more/Read less function 
+function readmoreReadless() {
+  var readMore = document.getElementById("readMore");
+  var more = document.getElementById("moreText");
+  var btn = document.getElementById("Btn");
+  var btn1 = document.getElementById("Btn1");
+
+  if (readMore.style.display === "none") {
+    readMore.style.display = "inline";
+    btn.innerHTML = "Read more"; 
+    more.style.display = "none";
+    btn1.style.visibility = "hidden";  
+  } else { 
+    readMore.style.display = "none";
+    btn.innerHTML = "Read less"; 
+    more.style.display = "inline";
+    btn1.style.visibility = "visible";
+  }
+}

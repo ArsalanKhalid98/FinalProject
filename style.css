@@ -297,6 +297,21 @@ label
     }
 }
 
+/*////////////////////////// ReadMore/ReadLess function //////////////////////////*/
+
+#moreText {
+
+    display: none;
+}
+
+btn.a:visited {
+    color:#0000EE;
+}
+
+#Btn1 {
+    visibility:hidden
+}
+
 /*////////////////////////// FOOTER //////////////////////////*/
 
 .footer {
