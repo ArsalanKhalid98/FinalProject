@@ -286,7 +286,7 @@ label
     display: none;
 }
 
-btn.a:visited {
+.topp a:visited {
     color:#0000EE;
 }
 
