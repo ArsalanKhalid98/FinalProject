@@ -26,7 +26,7 @@ function handle(e) {
         myBtn.click();
     }
 }
-
+// opens or closes the navbar
 function navpopoff(){
     var x = document.getElementById("knapper");
     if (x.className === "knapper") {
@@ -35,7 +35,7 @@ function navpopoff(){
         x.className = "knapper";
     }
 }
-
+// closes the navigation bar
 function closemenu() {
     var x = document.getElementById("knapper");
     if(x.className === "dropdown")x.className = "knapper";

@@ -30,6 +30,7 @@ body {
 }
 .aceknapp {
     padding: 0.3em;
+	display: grid;
 }
 
 .knapp:hover {
@@ -155,7 +156,7 @@ p {
 
 #toppen {
     position: fixed;
-    bottom: 122px;
+    bottom: 40px;
     right: 40px;
     z-index: 2;
     transition: opacity .2s;
@@ -163,11 +164,11 @@ p {
 }
 
 .pil:hover {
-    opacity: .5;
+    opacity: .75;
 }
 
 .up {
-    width: 50px;
+    width: 100px;
 }
 
 /*////////////////////////// CONTACT //////////////////////////*/
