@@ -72,25 +72,23 @@ function changefont() {
     }
 
 }
-  var readMore = document.getElementById("readMore");
-  var more = document.getElementById("moreText");
-  var btn = document.getElementById("Btn");
-    btn.addEventListener("click", readmoreReadless);
-  var btn1 = document.getElementById("Btn1");
-    btn1.addEventListener("click", readmoreReadless);
-//Read more/Read less function 
-function readmoreReadless() {
 
+var script = document.createElement('script');
+ 
+script.src = 'https://code.jquery.com/jquery-1.10.1.min.js';
+document.getElementsByTagName('head')[0].appendChild(script); 
 
-  if (readMore.style.display === "none") {
-    readMore.style.display = "inline";
-    btn.innerHTML = "Read more";
-    more.style.display = "none";
-    btn1.style.visibility = "hidden";  
-  } else { 
-    readMore.style.display = "none";
-    btn.innerHTML = "Read less"; 
-    more.style.display = "inline";
-    btn1.style.visibility = "visible";
-  }
-}
+$(document).ready(function () {
+    $('.nav-toggle').click(function () {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function () {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Read More');
+            } else {
+                toggle_switch.html('Read Less');
+            }
+        });
+    });
+
+});

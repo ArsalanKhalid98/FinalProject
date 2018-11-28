@@ -282,17 +282,15 @@ label
 
 /*////////////////////////// ReadMore/ReadLess function //////////////////////////*/
 
-#moreText {
-
-    display: none;
+more, input.text {
+  display: none;
 }
-
-.topp a:visited {
-    color:#0000EE;
+input.text:checked + more {
+  display: block;
 }
-
-#Btn1 {
-    visibility:hidden
+input.text {
+  position: absolute;
+  left: -999999em;
 }
 
 /*////////////////////////// FOOTER //////////////////////////*/
