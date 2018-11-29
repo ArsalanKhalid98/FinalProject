@@ -7,9 +7,10 @@ https://fonts.google.com/specimen/Spectral+SC
 -->
 <!DOCTYPE html>
 <html lang=eng>
+
 <head>
     <title>InfinityWear</title>
-	<link rel="icon" type="image/png" href="bilder/favicon.png"/>
+    <link rel="icon" type="image/png" href="bilder/favicon.png" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
@@ -17,11 +18,11 @@ https://fonts.google.com/specimen/Spectral+SC
 </head>
 
 <body>
-	<!-- 
+    <!-- 
 		Code for the arrow that takes you to the top, onclick it starts the function refrenced in the code
 	-->
     <a class="pil" title="Opp til toppen" id="toppen" onclick="tiptopp()"><img src="bilder/pilopp.png" class="up" alt="oppKnapp"></a>
-	<!-- 
+    <!-- 
 		Codes the navigation bar situated fixed at the top of the page
 	-->
     <div class="nav" id="nav">
@@ -29,7 +30,7 @@ https://fonts.google.com/specimen/Spectral+SC
             <div class="aceknapp">
                 <a class="knapp" href="#" onclick="closemenu()"><img src="bilder/logo.png" class="logo"></a>
             </div>
-			<input id="openNav" type="checkbox"/>
+            <input id="openNav" type="checkbox" />
             <div class="navigationbuttons" id="navigationbuttons">
                 <a class="knapp" href="#about" onclick="closemenu()">About</a>
                 <a class="knapp" href="#product" onclick="closemenu()">Product</a>
@@ -37,7 +38,7 @@ https://fonts.google.com/specimen/Spectral+SC
                 <a class="knapp" href="#contact" onclick="closemenu()">Contact</a>
                 <a class="knapp" style="cursor: pointer;" onclick="changefont();" id="changer">A/a</a>
                 <a class="knapp" href="#norsk" onclick="closemenu();">NOR/ENG</a>
-				<label for="openNav">
+                <label for="openNav">
 					<a class="hamburgler knapp" onclick="navpopoff()">
 						<div class="hamb" id="hamb"></div>
 						<div class="hamb" id="hamb"></div>
@@ -48,30 +49,30 @@ https://fonts.google.com/specimen/Spectral+SC
         </div>
         <div class="clear"></div>
     </div>
-	<!-- 
+    <!-- 
 		The jumbotron is the banner spanning fixed at the frontpage
 	-->
     <div class="jumbotron" onclick="closemenu()">
         <div id="header">
-			<img src="bilder/logomedtekst.png">
+            <img src="bilder/logomedtekst.png">
         </div>
     </div>
-	<!-- 
+    <!-- 
 		The main section is everything but the previously mentioned divitions
 	-->
     <section id="main" onclick="closemenu()">
-		<!-- 
+        <!-- 
 			The anchor points are for navigation purposes as you see they are refrenced in the navigation bar <a> tags
 		-->
         <a class="anker" id="about"></a>
-		<!-- 
+        <!-- 
 			the diffrent top and bunn sections signifies diffrent sections with diffrent background colors.
 		-->
         <section class="topp">
             <div class="wrapper">
                 <h2>About ACE</h2>
-				<p>
-					Since there have been gaming, there have been those that try to infringe on other people's time and happiness by cheating in their beloved games. Hackers have cheated and made what was a level playing field for all, into an uneven playing field where they have the advantage. Currently the methods that try to stop the hackers have been insufficient and only the fewest ever get caught. That is why we invented the innovative deep learning algorithm that will hopefully put an end to the hackers reign.
+                <p>
+                    Since there have been gaming, there have been those that try to infringe on other people's time and happiness by cheating in their beloved games. Hackers have cheated and made what was a level playing field for all, into an uneven playing field where they have the advantage. Currently the methods that try to stop the hackers have been insufficient and only the fewest ever get caught. That is why we invented the innovative deep learning algorithm that will hopefully put an end to the hackers reign.
                 </p>
                 <input class="text" id="visMer" type='checkbox' />
                 <more>
@@ -79,27 +80,27 @@ https://fonts.google.com/specimen/Spectral+SC
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </more>
-                    <p style="font-size: 1.0em;">
-                        <label id="showLess" style="cursor: pointer;" for="visMer">
+                <p style="font-size: 1.0em;">
+                    <label id="showLess" style="cursor: pointer;" for="visMer">
                             Read more/less...
                         </label>
-                    </p>  
-                        
-                    
+                </p>
+
+
             </div>
         </section>
         <a class="anker" id="product"></a>
         <section class="bunn">
-			<!-- 
+            <!-- 
 				The wrapper class adds padding and the pages 15% margins on both sides
 			-->
             <div class="wrapper">
                 <h2>Product</h2>
                 <p>
                     Our product wants to change the gaming community by solving hacking once and for all. Some of the problems the gaming community stands in front of today are aim hacking, wall hacking, speed hacking and other hacks designed to give the cheater the advantage.</p>
-				<p>
+                <p>
                     Our solution will fix this, with the ac engine we can detect if you are hacking in real time and alert the admins faster than any other anti cheat measure on the market. We want all the games out there to be without hackers. One thing that is really important for us as a company is to assure that no games will be destroyed or ruined by hackers, and because of the great technology we have today this is possible to achieve. We have taken anti cheat systems to a new height and aiming towards a future where hacking belongs to the past. Thanks to the deep learning algorithm programmed into ACE, we can now detect hacking faster than a human and without thousands of reports.</p>
-				<p>
+                <p>
                     Today most hackers need hundreds or thousands of reports to get automatically banned, and we believe this is too ineffective. ACE can alone decide if a player is hacking by only tracking the input from the player and compare it to the input of an average player in real time.</p>
                 <p>
                     Here are some of the currently supported games:</p>
@@ -112,12 +113,12 @@ https://fonts.google.com/specimen/Spectral+SC
         <section class="topp">
             <div class="wrapper">
                 <h2>How does the ac engine work ?</h2>
-				<p>
-					The process of enforcing anti cheat measures has long been a hard and tedious way of stopping hackers, now with the ac engine we will be able to faster and easier and cheaper than ever find and eliminate cheaters and hackers as they come. The real advantage with using our product is that the engine will be able to catch cheaters in real time, while they are still in the game.</p>
-				<p>
-					Currently the main focus is to be able to make the engine as easy and pain-free as possible to switch to for the developers. With our solution you would be able to just upload the raw game data and player input to the ace cloud and the engines deep learning algorithm will be at work, after a certain threshold of game data has been uploaded, ACE will begin to more accurately pinpoint the hackers. The best part of our anti cheat engine is that over time the machine will only get better.</p>
-				<p>
-					The engine will be operating from a remote server farm, processing data. From there it will be operating a state of the art deep learning algorithm that will process the players input and conclude if the player are cheating.</p>
+                <p>
+                    The process of enforcing anti cheat measures has long been a hard and tedious way of stopping hackers, now with the ac engine we will be able to faster and easier and cheaper than ever find and eliminate cheaters and hackers as they come. The real advantage with using our product is that the engine will be able to catch cheaters in real time, while they are still in the game.</p>
+                <p>
+                    Currently the main focus is to be able to make the engine as easy and pain-free as possible to switch to for the developers. With our solution you would be able to just upload the raw game data and player input to the ace cloud and the engines deep learning algorithm will be at work, after a certain threshold of game data has been uploaded, ACE will begin to more accurately pinpoint the hackers. The best part of our anti cheat engine is that over time the machine will only get better.</p>
+                <p>
+                    The engine will be operating from a remote server farm, processing data. From there it will be operating a state of the art deep learning algorithm that will process the players input and conclude if the player are cheating.</p>
             </div>
         </section>
         <a class="anker" id="shop"></a>
@@ -125,44 +126,101 @@ https://fonts.google.com/specimen/Spectral+SC
             <div class="wrapper">
                 <h2>Buy InfinityWear</h2>
                 <p>To make our project become real, we do appreciate all kinds of support. At this point we offer the opportunity to pre-order InfinityWear. By buying our product now, you will be the first in line to receive InfinityWear when it´s available. In addition, you will contribute to making our Infinity-dream become reality.</p>
+                <br>
+                <div class="paymentform">
+                    <form>
+                        <div class="payment">
+                            <div class="payment_form" id="owner">
+                                <label for="owner">Owner</label>
+                                <input class="place" type="text" id="owner">
+                            </div>
+                            <div class="payment_form" id="cvv">
+                                <label for="cvv">CVV</label>
+                                <input class="place" type="text" id="cvv">
+                            </div>
+                            <div class="payment_form" id="cardnumber">
+                                <label for="payment_cardNumber">Card Number</label>
+                                <input class="place" type="text" id="cardNumber">
+                            </div>
+                            <div class="payment_form" id="expiration">
+                                <label>Expiration Date</label>
+                                <select>
+                    <option value="01">January</option>
+                    <option value="02">February </option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                        </select>
+                                <select>
+                    <option value="18"> 2018</option>
+                    <option value="19"> 2019</option>
+                    <option value="20"> 2020</option>
+                    <option value="21"> 2021</option>
+                    <option value="22"> 2022</option>
+                    <option value="23"> 2023</option>
+                </select>
+                            </div>
+                            <div class="payment_form" id="cards">
+                                <img src="bilder/visa.jpg" id="visa">
+                                <img src="bilder/mastercard.jpg" id="mastercard">
+                                <img src="bilder/amex.jpg" id="amex">
+                            </div>
+                            <div class="payment_form," id="pay">
+                                <button type="submit" class="paymentbtn" id="paymentconfirm">Confirm</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
             </div>
+
         </section>
         <a class="anker" id="contact"></a>
         <section class="topp">
             <div class="wrapper">
                 <h2>Contact</h2>
                 <p>If you are curious about our progress, or if you want to get more info. Feel free to sign up on our mailing list below.</p>
-				<!-- 
+                <!-- 
 					Codes the form for the email signup
                 -->
                 <label for="email">E-mail:</label><br>
                 <input type="email" id="email" name="email" placeholder="Email@example.com" onkeypress="handle(event)"><br>
-				<button type="submit" class="button submitemail" id="myBtn" onclick="slett();snackFunction();">Submit!</button>
+                <button type="submit" class="button submitemail" id="myBtn" onclick="slett();snackFunction();">Submit!</button>
                 <p>This project is still in the early stages of developement. If you want infomation or if you want to contact us, you can reach us on Facebook, Twitter and Reddit. </p>
 
                 <!-- Snackbar div-->
                 <div id="snackbar">Thank you for signing up!</div>
-                <!-- Font-size changer--><!--
+                <!-- Font-size changer-->
+                <!--
                 <button class="button" id="changer" onclick="changefont();">Font Changer</button>
                 -->
             </div>
         </section>
-		<!-- 
+        <!-- 
 			Footer section is mostly redundant info about the pages socialmedia pages“
 		-->
         <section class="footer">
             <div class="wrapper" id="footer">
-				<div class="column"><p>InfinityWear &copy; 2018</p></div>
-				<!-- 
+                <div class="column">
+                    <p>InfinityWear &copy; 2018</p>
+                </div>
+                <!-- 
 					Displays the facebook, twitter and reddit pictures in the footer
 				-->
                 <div class="some">
-					<ul>
-						<li><a href="http://facebook.com/" target="_blank"><img src="bilder/face.png" alt="facebook logo" class="fa"></a></li>
-						<li><a href="http://twitter.com/" target="_blank"><img src="bilder/twitter.png" alt="twitter logo" class="fa"></a></li>
-						<li><a href="http://reddit.com/" target="_blank"><img src="bilder/reddit.png" alt="reddit logo" class="fa"></a></li>
-					</ul>
-				</div>
+                    <ul>
+                        <li><a href="http://facebook.com/" target="_blank"><img src="bilder/face.png" alt="facebook logo" class="fa"></a></li>
+                        <li><a href="http://twitter.com/" target="_blank"><img src="bilder/twitter.png" alt="twitter logo" class="fa"></a></li>
+                        <li><a href="http://reddit.com/" target="_blank"><img src="bilder/reddit.png" alt="reddit logo" class="fa"></a></li>
+                    </ul>
+                </div>
             </div>
             <div class="clear"></div>
         </section>

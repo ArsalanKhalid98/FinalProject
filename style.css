@@ -352,3 +352,89 @@ input.text {
     clear: both;
     display: table;
 }
+
+/*////////////////////////// PAYMENT //////////////////////////*/
+
+.paymentform {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+
+.paymentform label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.paymentform .payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.paymentform .payment .payment_form {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.paymentform .payment .place {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+
+.paymentform .owner {
+    width: 63%;
+    margin-right: 10px;
+}
+.paymentform .cvv {
+    width: 35%;
+}
+
+.paymentform #cardnumber {
+    width: 100%;
+}
+.paymentform #expiration {
+    width: 49%;
+}
+
+.paymentform #cards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.paymentform #pay {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.paymentform .payment .paymentbtn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
+
+.payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+@media(max-width: 650px) {
+    .payment .owner,
+    .payment .CVV,
+    .payment #expiration,
+    .payment #cards {
+        width: 100%;
+    }
+    .payment #cards {
+        text-align: left;
+    }
+}
