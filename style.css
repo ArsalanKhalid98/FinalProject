@@ -84,7 +84,7 @@ body {
 }
 
 
-input {
+.dropdown input {
   	position: absolute;
   	left: -9999em;
 }
@@ -93,7 +93,7 @@ input {
   	display: none;
 }
 
-input:checked + .navigationbuttons .knapp:not(:last-child){
+.dropdown input:checked + .navigationbuttons .knapp:not(:last-child){
   	display: block;
 }
 
