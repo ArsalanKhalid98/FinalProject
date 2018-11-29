@@ -26,20 +26,6 @@ function handle(e) {
         myBtn.click();
     }
 }
-// opens or closes the navbar
-function navpopoff(){
-    var x = document.getElementById("knapper");
-    if (x.className === "knapper") {
-        x.className = "dropdown";
-    } else {
-        x.className = "knapper";
-    }
-}
-// closes the navigation bar
-function closemenu() {
-    var x = document.getElementById("knapper");
-    if(x.className === "dropdown")x.className = "knapper";
-}
 
 // Snackbar that appears when user enters email from W3
 function snackFunction() {
