@@ -59,22 +59,27 @@ function changefont() {
 
 }
 
-var script = document.createElement('script');
- 
-script.src = 'https://code.jquery.com/jquery-1.10.1.min.js';
-document.getElementsByTagName('head')[0].appendChild(script); 
+/* carousel */
 
-$(document).ready(function () {
-    $('.nav-toggle').click(function () {
-        var collapse_content_selector = $(this).attr('href');
-        var toggle_switch = $(this);
-        $(collapse_content_selector).toggle(function () {
-            if ($(this).css('display') == 'none') {
-                toggle_switch.html('Read More');
-            } else {
-                toggle_switch.html('Read Less');
-            }
-        });
-    });
+var i = 0;
+const images = [];
+const changeTime = 4000;
 
-});
+images[0] = 'bilder/jakke.png';
+images[1] = 'bilder/jakke3.png';
+images[2] = 'bilder/jakke4.png';
+
+function changeImg() {
+    document.slide.src = images[i];
+
+    if(i < images.length - 1) {
+        i++
+    }
+    else {
+        i = 0;
+    }
+
+    setTimeout("changeImg()", changeTime);
+}
+
+window.onload = changeImg;
