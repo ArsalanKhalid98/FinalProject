@@ -62,8 +62,8 @@ function changefont() {
 /* carousel */
 
 var i = 0;
-var images = [];
-var time = 4000;
+const images = [];
+const changeTime = 4000;
 
 images[0] = 'bilder/jakke.png';
 images[1] = 'bilder/jakke3.png';
@@ -79,7 +79,7 @@ function changeImg() {
         i = 0;
     }
 
-    setTimeout("changeImg()", time);
+    setTimeout("changeImg()", changeTime);
 }
 
 window.onload = changeImg;
