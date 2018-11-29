@@ -63,7 +63,7 @@ function changefont() {
 
 var i = 0;
 var images = [];
-var time = 3000;
+var time = 4000;
 
 images[0] = 'bilder/jakke.png';
 images[1] = 'bilder/jakke3.png';
