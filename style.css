@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-	width: 60px;
+	width: 100px;
 }
 
 .knapper {
@@ -42,7 +42,7 @@ body {
 }
 
 .hamburgler {
-    padding: 0.3em;
+    padding: 0.5em;
     position: absolute;
     right: 15%;
     top: 13px;
@@ -50,10 +50,10 @@ body {
 }
 
 .hamb {
-    width:36px;
-    height: 6px;
+    width:50px;
+    height: 10px;
     background-color: white;
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 }
 
 .nav .dropdown .navigationbuttons{
@@ -93,7 +93,7 @@ body {
   	left: -9999em;
 }
 
-.navigationbuttons .knapp:not(:last-child) {
+.knapp:not(:last-child) {
   	display: none;
 }
 
