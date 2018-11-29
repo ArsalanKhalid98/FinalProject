@@ -104,18 +104,24 @@ body {
 /*////////////////////////// JUMBOTRON //////////////////////////*/
 
 #header {
-    background-image: url(bilder/banner3.png);
+    background-color: #2980b9;
     background-position: center;
     background-size: cover;
     z-index: -2;
     position: fixed;
-    height: 58%;
+    height: 500px;
     width: 100%;
 }
 
 .jumbotron {
-    height: 58%;
+    height: 500px;
     padding-top: 78.06px;
+	align-items: center;
+}
+.jumbotron img {
+	padding-left: 150px;
+	padding-top: 150px;
+	width: 500px;
 }
 
 /*////////////////////////// MAIN //////////////////////////*/
