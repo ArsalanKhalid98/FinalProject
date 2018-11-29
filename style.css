@@ -23,6 +23,10 @@ body {
     font-family: 'Spectral SC', serif;
 }
 
+.logo {
+	width: 60px;
+}
+
 .knapper {
     font-size: 36.8px;
     margin-left: 15%;
@@ -52,7 +56,7 @@ body {
     margin-bottom: 6px;
 }
 
-.nav .dropdown {
+.nav .dropdown .navigationbuttons{
     font-size: 36.8px;
 }
 
