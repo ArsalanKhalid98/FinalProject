@@ -25,10 +25,11 @@ https://fonts.google.com/specimen/Spectral+SC
 		Codes the navigation bar situated fixed at the top of the page
 	-->
     <div class="nav" id="nav">
-        <div class="knapper" id="knapper">
+        <div class="dropdown" id="knapper">
             <div class="aceknapp">
                 <a class="knapp" href="#" onclick="closemenu()">ACE</a>
             </div>
+			<input id="openNav" type="checkbox"/>
             <div class="navigationbuttons" id="navigationbuttons">
                 <a class="knapp" href="#about" onclick="closemenu()">About</a>
                 <a class="knapp" href="#product" onclick="closemenu()">Product</a>
@@ -36,11 +37,13 @@ https://fonts.google.com/specimen/Spectral+SC
                 <a class="knapp" href="#contact" onclick="closemenu()">Contact</a>
                 <a class="knapp" onclick="changefont();" id="changer">A/a</a>
                 <a class="knapp" href="#norsk" onclick="closemenu();">NOR/ENG</a>
-                <a class="hamburgler knapp" onclick="navpopoff()">
-                    <div class="hamb" id="hamb"></div>
-                    <div class="hamb" id="hamb"></div>
-                    <div class="hamb" id="hamb"></div>
-                </a>
+				<label for="openNav">
+					<a class="hamburgler knapp" onclick="navpopoff()">
+						<div class="hamb" id="hamb"></div>
+						<div class="hamb" id="hamb"></div>
+						<div class="hamb" id="hamb"></div>
+					</a>
+				</label>
             </div>
         </div>
         <div class="clear"></div>
