@@ -70,7 +70,7 @@ images[1] = 'bilder/jakke3.png';
 images[2] = 'bilder/jakke4.png';
 images[3] = 'bilder/jakke 2.png';
 
-function changeImg() {
+function changeImage() {
     document.slide.src = images[i];
 
     if(i < images.length - 1) {
@@ -80,7 +80,7 @@ function changeImg() {
         i = 0;
     }
 
-    setTimeout("changeImg()", changeTime);
+    setTimeout("changeImage()", changeTime);
 }
 
-window.onload = changeImg;
+window.onload = changeImage;

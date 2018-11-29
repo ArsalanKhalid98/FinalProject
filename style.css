@@ -441,3 +441,27 @@ input.text {
         text-align: left;
     }
 }
+
+/* CSS-Carousel */
+
+.slider {
+    background: red;
+    
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25%{
+        background: url(/test.png);
+    }
+    50% {
+        background: url(test2.png);
+    }
+    75% {
+        background: url(test2.png);
+    }
+    100% {
+        background: url(test2.png);
+    }
+
+}
