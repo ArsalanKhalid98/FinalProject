@@ -14,7 +14,7 @@ body {
     -webkit-box-shadow: 0 0 2px black;
     -moz-box-shadow: 0 0 2px black;
     box-shadow: 0 0 2px black;
-    background-color: #34495e;
+    background-color: #000000;
     z-index: 1;
 }
 
@@ -202,7 +202,7 @@ p {
 }
 
 .button {
-    background-color: #34495e;
+    background-color: #000000;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -317,7 +317,7 @@ input.text {
 
 .footer {
     color: white;
-    background-color: #34495e;
+    background-color: #000000;
 }
 
 .column {
@@ -361,7 +361,7 @@ input.text {
     margin: 5px auto;
     overflow: hidden;
     padding: 15px;
-    color: #4c4e56;
+    color: #000000;
 }
 
 .paymentform h2 {
