@@ -362,6 +362,7 @@ input.text {
     overflow: hidden;
     padding: 15px;
     color: #000000;
+    border-radius: 25px;
 }
 
 .paymentform h2 {
