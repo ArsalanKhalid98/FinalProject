@@ -485,10 +485,10 @@ input.text1 {
         background: url(test2.png);
     }
     75% {
-        background: url(test2.png);
+        background: url(test3.png);
     }
     100% {
-        background: url(test2.png);
+        background: url(test4.png);
     }
 
 }
