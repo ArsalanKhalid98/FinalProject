@@ -68,7 +68,7 @@ const changeTime = 4000;
 images[0] = 'bilder/jakke.png';
 images[1] = 'bilder/jakke3.png';
 images[2] = 'bilder/jakke4.png';
-images[3] = 'bilder/jakke 2.png';
+images[3] = 'bilder/jakke2.png';
 
 function changeImage() {
     document.slide.src = images[i];
