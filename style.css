@@ -358,7 +358,7 @@ input.text {
 .paymentform {
     max-width: 700px;
     background-color: #fff;
-    margin: 100px auto;
+    margin: 50px auto;
     overflow: hidden;
     padding: 25px;
     color: #4c4e56;
@@ -373,7 +373,7 @@ input.text {
     float: left;
     font-size: 18px;
     padding: 10px 25px;
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
 }
 
@@ -383,6 +383,9 @@ input.text {
 }
 
 .paymentform .payment .place {
+    margin: 15px 0px;
+	font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
     line-height: 40px;
     height: auto;
     padding: 0 16px;
@@ -414,33 +417,35 @@ input.text {
     margin-top: 25px;
 }
 
-.paymentform .payment .paymentbtn {
-    width: 100%;
-    margin-top: 3px;
-    font-size: 24px;
-    background-color: #2ec4a5;
-    color: white;
-}
-
 .paymentform .payment select {
     padding: 10px;
     margin-right: 15px;
 }
 
-.transparent {
-    opacity: 0.2;
+.paymentbutton {
+    background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+	font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
-@media(max-width: 650px) {
-    .paymentform .owner,
-    .paymentform .CVV,
-    .paymentform #expiration,
-    .paymentform #cards {
-        width: 100%;
-    }
-    .paymentform #cards {
-        text-align: left;
-    }
+.paymentbutton:hover {
+    opacity: .5;
+}
+
+.confirmpay {
+    -webkit-box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+}
+
+.paymentform img {
+    height: 49px;
+    width: auto;
 }
 
 /* CSS-Carousel */
