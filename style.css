@@ -302,6 +302,7 @@ label
 
 /*////////////////////////// ReadLess function //////////////////////////*/
 
+/* 1 */
 more, input.text {
   display: none;
 }
@@ -309,6 +310,17 @@ input.text:checked + more {
   display: block;
 }
 input.text {
+  position: absolute;
+  left: -999999em;
+}
+/* 2 */
+more1, input.text1 {
+  display: none;
+}
+input.text1:checked + more1 {
+  display: block;
+}
+input.text1 {
   position: absolute;
   left: -999999em;
 }
