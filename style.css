@@ -445,14 +445,18 @@ input.text {
 /* CSS-Carousel */
 
 .slider {
-    background: red;
+    background: url(test.png);
+    background-position: center;
+    background-size: cover;
+
+    height: 500px;
+    width: 100%;
     
-    animation: slide 20s infinite;
 }
 
 @keyframes slide {
     25%{
-        background: url(/test.png);
+        background: url(test.png);
     }
     50% {
         background: url(test2.png);
