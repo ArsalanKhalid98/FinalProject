@@ -38,7 +38,7 @@ body {
 	display: grid;
 }
 
-.knapp:hover {
+.navigation buttons .knapp:hover {
     opacity: .5;
 }
 
@@ -48,6 +48,7 @@ body {
     right: 15%;
     top: 13px;
 	cursor: pointer;
+    font-size: 50px;
 }
 
 .hamb {
@@ -58,21 +59,21 @@ body {
 }
 
 .nav .dropdown .navigationbuttons{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .flag {
 	width: 80px;
 }
 
-.nav .dropdown .navigationbuttons a:not(:last-child) {
+.nav .dropdown .navigationbuttons .d {
     text-align: center;
     padding-bottom: 0.2em;
     padding-top: 0.2em;
     margin-left: 0;
 }
 
-.nav .dropdown .navigationbuttons a:not(:last-child):hover {
+.nav .dropdown .navigationbuttons .d:hover {
     background-color: #2f3542;
 }
 
@@ -89,20 +90,15 @@ body {
     -webkit-box-shadow: 0 0 2px black;
     -moz-box-shadow: 0 0 2px black;
     box-shadow: 0 0 2px black;
-    background-color: #2c3e50;
+    background-color: #303030;
 }
 
 
-.dropdown input {
-  	position: absolute;
-  	left: -9999em;
-}
-
-.knapp:not(:last-child) {
+.d {
   	display: none;
 }
 
-.dropdown input:checked + .navigationbuttons .knapp:not(:last-child){
+.dropdown input[type="checkbox"]:checked + .navigationbuttons .d{
   	display: block;
 }
 
@@ -226,7 +222,7 @@ p {
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
 }
 
-label
+.bunn label
 {
 	font-size: 1.2em;
     font-family: 'Lato', sans-serif;

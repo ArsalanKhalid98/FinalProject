@@ -10,7 +10,7 @@ function magic() {
         document.getElementById("toppen").style.display = "none";
     }
 }
-// when you click the up button it triggers the function which then takes you to the top of the page
+// when you click the up-button it triggers the function which then takes you to the top of the page
 function tiptopp() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -26,6 +26,26 @@ function handle(e) {
         myBtn.click();
     }
 }
+
+function lukk(){
+    document.getElementById("openNav").checked = false;
+}
+
+//closes the navigationbar
+/*function lukk(){
+    var d = document.getElementsByClassName("d");
+    for(var i = 0; i < d.length; i++) {
+          d[i].style.display = "none";
+    }
+}
+
+function open(){
+    var d = document.getElementsByClassName("d");
+    for(var i = 0; i < d.length; i++) {
+          d[i].style.display = "block";
+    }
+}
+*/
 
 // Snackbar that appears when user enters email from W3
 function snackFunction() {
