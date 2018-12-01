@@ -63,7 +63,8 @@ body {
 }
 
 .flag {
-	width: 80px;
+	width: 70px;
+    height: auto;
 }
 
 .nav .dropdown .navigationbuttons .d {
@@ -148,8 +149,9 @@ body {
 
 h1,
 h2 {
-    font-family: 'Spectral SC', serif;
-    font-weight: 1;
+    /* font-family: 'Spectral SC', serif; */
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     font-size: 2.3em;
     margin: 0;
 }
