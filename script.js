@@ -27,6 +27,7 @@ function handle(e) {
     }
 }
 
+<<<<<<< HEAD
 function lukk(){
     document.getElementById("openNav").checked = false;
 }
@@ -58,6 +59,8 @@ function snackFunction() {
     
     
 }
+=======
+>>>>>>> 86e8ca85069d7ede389b4faecc6c7ad53c8cf72a
 
 // Font-size changer
 
