@@ -249,6 +249,7 @@ input.text {
   position: absolute;
   left: -999999em;
 }
+
 /* 2 */
 more1, input.text1 {
   display: none;
@@ -257,6 +258,30 @@ input.text1:checked + more1 {
   display: block;
 }
 input.text1 {
+  position: absolute;
+  left: -999999em;
+}
+
+/* 3 */
+more2, input.text2 {
+  display: none;
+}
+input.text2:checked + more2 {
+  display: block;
+}
+input.text2 {
+  position: absolute;
+  left: -999999em;
+}
+
+/* 4 */
+more3, input.text3 {
+  display: none;
+}
+input.text3:checked + more3 {
+  display: block;
+}
+input.text3 {
   position: absolute;
   left: -999999em;
 }
