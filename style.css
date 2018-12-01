@@ -124,7 +124,9 @@ body {
 	align-items: center;
 }
 .jumbotron img {
-	padding-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 	padding-top: 150px;
 	width: 500px;
 }
