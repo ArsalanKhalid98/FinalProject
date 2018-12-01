@@ -58,7 +58,11 @@ body {
 }
 
 .nav .dropdown .navigationbuttons{
-    font-size: 36.8px;
+    font-size: 50px;
+}
+
+.flag {
+	width: 80px;
 }
 
 .nav .dropdown .navigationbuttons a:not(:last-child) {
@@ -136,7 +140,7 @@ body {
 .anker {
     display: block;
     position: relative;
-    top: -55px;
+    top: -120px;
     visibility: hidden;
 }
 
