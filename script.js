@@ -27,7 +27,6 @@ function handle(e) {
     }
 }
 
-<<<<<<< HEAD
 function lukk(){
     document.getElementById("openNav").checked = false;
 }
@@ -47,20 +46,6 @@ function open(){
     }
 }
 */
-
-// Snackbar that appears when user enters email from W3
-function snackFunction() {
-
-        var snack = document.getElementById("snackbar");
-        snack.className = "show";
-        setTimeout(function () {
-            snack.className = snack.className.replace("show", "");
-        }, 3000);
-    
-    
-}
-=======
->>>>>>> 86e8ca85069d7ede389b4faecc6c7ad53c8cf72a
 
 // Font-size changer
 
