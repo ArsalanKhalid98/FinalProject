@@ -264,10 +264,12 @@ input.text1 {
 .footer {
     color: white;
     background-color: #000000;
+    height: 124px;
 }
 
 .column {
-	float: left;
+    float: left;
+    margin-top: 19px;
 }
 
 .fa {
@@ -290,7 +292,8 @@ input.text1 {
 
 .some ul {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    margin-top: 5%;
 }
 
 .clear{
