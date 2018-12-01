@@ -314,6 +314,7 @@ input.text1 {
     padding: 15px;
     color: #000000;
     border-radius: 25px;
+    font-family: 'Lato', sans-serif;
 }
 
 .paymentform h2 {
